@@ -22,7 +22,7 @@ jobs:
           submodules: recursive
 
       - name: Compile latex
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: "report.tex"
           working_directory: "docs/"
